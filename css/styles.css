@@ -6,7 +6,7 @@
 
 :root {
   --color-primary: #2c578f;
-  --color-secondary: #2d2e30;
+  --color-secondary: #67696d;
   --color-accent: #423c42;
   --color-headings: #1b0760;
   --color-body: #242324;
@@ -30,6 +30,7 @@ h2,
 h3 {
   color: var(--color-headings);
   margin-bottom: 1rem;
+  line-height: 1.1;
 }
 
 h1 {
@@ -249,4 +250,69 @@ a {
 
 .block--dark .block__heading {
   color: white;
+}
+
+/* Navigation Bar */
+
+.nav {
+  background-color: var(--color-secondary);
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+a {
+  color: #d2d0db;
+  transition: 0.3s;
+  padding: 0.5rem 2rem;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #fff;
+}
+
+.nav__list {
+  width: 100%;
+}
+
+.nav__item {
+  padding: 0.5rem 2rem;
+}
+
+.nav__item > a {
+  color: #d2d0db;
+  transition: 0.3s;
+}
+.nav__item > a:hover {
+  color: #fff;
+}
+
+.nav__brand {
+  transform: translateY(25px);
+}
+
+@media screen and (min-width: 768px) {
+  a {
+    width: auto;
+    display: flex;
+    font-size: 1.6rem;
+  }
+  .nav__list {
+    width: auto;
+    display: flex;
+    font-size: 1.6rem;
+  }
+}
+
+/* Hero */
+
+.container .block .block--dark {
+}
+
+.hero__tagline {
+  font-size: 2rem;
+  color: #b9c3cf;
+  letter-spacing: 1px;
+  margin: 2rem 0 5rem;
 }
