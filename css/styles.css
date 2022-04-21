@@ -307,7 +307,8 @@ a:hover {
 
 /* Hero */
 
-.container .block .block--dark {
+.block__header .hero__content {
+  background-image: url(/images/bgc_forest.webp);
 }
 
 .hero__tagline {
