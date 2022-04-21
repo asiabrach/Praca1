@@ -207,3 +207,26 @@ a {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
+
+.grid--1x2 .testimonial__1 {
+  width: 2rem;
+  height: 2rem;
+  background-color: rgb(175, 178, 183);
+  border-radius: 50%;
+}
+.grid--1x2 .testimonial__2 {
+  width: 2rem;
+  height: 2rem;
+  background-color: rgb(135, 131, 136);
+  border-radius: 50%;
+}
+
+/* Testimonials */
+
+.testimonial {
+  padding: 3rem;
+}
+
+.testimonial .testimonial__1 {
+  width: 100%;
+}
