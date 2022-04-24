@@ -225,6 +225,7 @@ a {
 /* Testimonials */
 
 .testimonial {
+  background-image: url(/images/bgc_forest.webp);
   padding: 3rem;
 }
 
@@ -307,8 +308,11 @@ a:hover {
 
 /* Hero */
 
-.block__header .hero__content {
+.block-hero {
   background-image: url(/images/bgc_forest.webp);
+}
+
+.block__header .hero__content {
 }
 
 .hero__tagline {
